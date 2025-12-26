@@ -1,0 +1,33 @@
+{
+  "name": "202512-storybook-testfn-tag",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "test": "vitest",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react-swc": "^4.2.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "storybook": "^10.1.10",
+    "@storybook/react-vite": "^10.1.10",
+    "@storybook/addon-vitest": "^10.1.10",
+    "vitest": "^4.0.16",
+    "playwright": "^1.57.0",
+    "@vitest/browser-playwright": "^4.0.16",
+    "@vitest/coverage-v8": "^4.0.16"
+  }
+}
